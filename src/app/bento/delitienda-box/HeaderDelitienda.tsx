@@ -1,3 +1,4 @@
+import Marquee from "@/app/magic-ui/Marquee";
 import Chip from "@/app/shared/Chip";
 
 const HeaderDelitienda = () => {
