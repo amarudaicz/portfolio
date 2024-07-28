@@ -5,8 +5,8 @@ const MainProfile = () => {
  
 
   return (
-    <div className="">
-      <div className="flex flex-col gap-3">
+    <div className="h-full">
+      <div className="flex h-full flex-col gap-3">
           <ProfileData/>
           <LayoutBoxCounters></LayoutBoxCounters>
       </div>

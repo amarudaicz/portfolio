@@ -1,0 +1,13 @@
+@keyframes autoscroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(calc(-100% + 200px));
+  }
+}
+
+.full-page-ow {
+  animation: autoscroll 20s infinite alternate;
+}
+

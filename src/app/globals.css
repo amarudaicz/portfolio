@@ -18,31 +18,14 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: black
+  background: black;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-.grid-bento{
-  display: grid;
-  grid-template-columns: repeat(1, auto);
-}
-
-@media (min-width: 768px) {
-  .grid-bento {
-    grid-template-columns: repeat(2, 1fr);
-  }
-};
-
-.bg-item-bento{
+.bg-item-bento {
   background: rgb(38 38 38 / 1);
 }
 
-.text-12{
+.text-12 {
   font-size: 12px !important;
 }
 
@@ -52,6 +35,16 @@ body {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .no-scrollbar {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
+
+.container-git {
+  background-image: url("/github-hero.webp");
+  background-size: cover;
+  animation: background-rotate 30s infinite alternate;
+}
+
+
+
+

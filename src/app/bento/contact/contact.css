@@ -1,0 +1,12 @@
+.container-contact{
+    animation:bg-animation 30s infinite alternate;
+}
+
+
+@keyframes bg-animation{
+    0%{
+        
+
+    }
+    
+}

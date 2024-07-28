@@ -1,0 +1,36 @@
+.container-box {
+  transition: transform 3s ease-out;
+}
+
+.container-box:hover .image-laptop {
+  transform: translate(-70%, 15%);
+}
+
+.container-box:hover .image-mockup {
+  transform: translateX(0);
+}
+
+.container-box:hover .overlay-link {
+  transition-delay: 1000ms;
+  opacity: .8;
+}
+
+.image-mockup {
+  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transform: translateX(100%);
+}
+
+.image-laptop {
+  mask-image:linear-gradient(to right, black 90% , transparent);
+  transition: transform 1s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.overlay-link{
+    transition: all 1s ease;
+}
+
+.blob-blue {
+
+}
+
+

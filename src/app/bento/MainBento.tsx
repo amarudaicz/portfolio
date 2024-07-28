@@ -1,5 +1,4 @@
 import LayoutGrid from "./LayoutGrid"
-import MainProfile from "./profile/MainProfile"
 
 const MainBento = ( ) => {
     return(
