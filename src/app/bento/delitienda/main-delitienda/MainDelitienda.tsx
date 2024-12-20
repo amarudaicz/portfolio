@@ -23,7 +23,7 @@ const MainDelitienda = () => {
 
             <div className='mt-4'>
               <a
-                href='https://delitienda.app'
+                href='https://delitienda.netlify.app'
                 target='_blank'
                 className='hover:translate-x-1 transition-all px-4 py-2 rounded-full bg-[#450AE8] text-white overflow-hidden relative text-sm font-medium shadow-sm shadow-[#6d3fe9] flex items-center gap-2 w-fit'
               >
